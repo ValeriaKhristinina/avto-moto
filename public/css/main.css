@@ -1,0 +1,9 @@
+@import './variables.css';
+@import './container.css';
+@import './logo.css';
+@import './header.css';
+@import './navigation.css';
+
+body {
+    margin: 0;
+}
