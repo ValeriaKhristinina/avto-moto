@@ -1,0 +1,11 @@
+.header{
+    margin-bottom: 90px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: var(--main-bg-color);
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}

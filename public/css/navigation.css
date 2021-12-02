@@ -1,0 +1,26 @@
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation-list{
+    display: flex;
+    padding: 0;
+    margin:0;
+    list-style: none;
+}
+
+.navigation-list__item {
+    
+    margin-right: 68px;
+    
+}
+
+.navigation-list__item a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration-line: none;
+    color: var(--main-text-color);
+}
