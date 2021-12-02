@@ -1,3 +1,43 @@
 .slider {
     margin-right: 54px;
 }
+
+.slader__main-image{
+    margin-bottom: 40px;
+}
+
+.slider-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__preview {
+    display: flex;
+}
+
+.slider__preview-image{
+    margin-right: 25px;
+}
+
+.slider__preview-image:last-child {
+    margin-right: 0;
+}
+
+.slider__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border: 1px solid #D7D9DF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__arrow--disabled{
+    cursor: initial;
+}
+
+.slider__arrow--disabled svg{
+    opacity: 50%;
+}
