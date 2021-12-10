@@ -1,11 +1,16 @@
 import Slider from './slider';
 import ProductFeatures from './product-features';
+import About from './about';
 
 function Main(): JSX.Element {
     return (
         <div className="main container">
-            <Slider />
-            <ProductFeatures />
+            <div className="main-wrapper">
+                <Slider />
+                <ProductFeatures />
+            </div>
+
+            <About />
         </div>
     )
 }

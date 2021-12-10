@@ -1,3 +1,4 @@
-.main {
+.main-wrapper {
     display: flex;
+    margin-bottom: 100px;
 }

@@ -21,12 +21,34 @@
     border-color: var(--main-bg-btn);
 }
 
-.btn:hover {
-    background-color: #BD0C21;
+.btn-about-control {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    height: 50px;
+    min-width: 195px;
+    border: 1px solid #E5E5E5;
+    background-color: white;
+    color: var(--main-text-color);
+    cursor: pointer;
 }
 
-.btn--reverse-color:hover{
+.btn-about-control--active {
+    background-color: var(--main-bg-btn);
+    color: white;
+    border-color: transparent;
+}
+
+
+
+.btn--reverse-color:hover,
+.btn-about-control:hover {
     color: white;
     background-color: var(--main-bg-btn);
     border-color: transparent;
+}
+
+.btn:hover,
+.btn-about-control--active:hover {
+    background-color: #BD0C21;
 }
